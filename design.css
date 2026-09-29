@@ -1,0 +1,229 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+     /* ------navbar------ */
+.nav{
+    background-color: white;
+    padding: 5px 15px;
+    display: flex;
+    border-bottom: 1px rgb(103, 82, 82);
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid blue;
+    position: sticky;
+    top: 0;
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 30px;
+}
+ul li:hover{
+    text-decoration:underline;
+    color: red;
+    cursor: pointer;
+}
+button{
+    padding: 7px 20px;
+    background: red;
+    color: white;
+    border-radius:5px;
+    border: none;
+}
+span{
+    color: red;
+}
+    /* -------hero------ */
+    body{
+        background-color: rgb(235, 238, 240);
+    }
+.hero{
+    background-image: url(images/back\ ground.jpeg);
+    width: 80%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   box-shadow: 0 0 10px rgb(123, 103, 103);
+   margin: 50px auto;
+}
+.hero-left{
+    width:50%;
+    padding: 10px 40px;
+}
+.hero-left img{
+    width:100%;
+}
+.hero-right{
+    margin: 100px;
+    border-radius:10px ;
+}
+h1{
+    color: rgb(33, 47, 56); 
+} 
+.button{
+    display: flex;
+    margin-left: 100px;
+    width: 230px;
+    margin-top: 20px;
+    justify-content: space-between;
+} 
+/* -------heading------- */
+.list{
+text-align: center;
+margin: 20px;
+}
+h3{
+    color: red;
+    padding: 20px 0;
+}
+.catagory-folder{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 130px; ;
+}
+.item img{
+    width: 100%;
+    box-shadow: 0 0 10px gray;
+    margin-bottom:10px ;
+    border-radius: 50%;
+}
+.item p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  /* -------about our shop------------- */
+  .cart{
+    text-align: center;
+    margin-top:30px;
+ }
+h2{
+    color: red;
+    cursor: pointer;
+}
+p{
+    margin-top: 10px;
+}
+.set{
+   display:flex;
+}
+.left-part{
+    width:70%;
+}
+.left-part img{
+    width: 60%;
+    height: 60%; 
+    box-shadow: 0 0 5px gray ;
+    margin-top: 50px;
+
+}
+.right-part{
+    cursor: pointer;
+    font-size: medium;
+    padding:30px 60px;
+    margin-top: 30px;
+    width: 60%;
+}
+/* -------collection------*/
+.collection{
+    text-align: center;
+    margin-top: 30px;
+}
+h1{
+    color: red;
+}
+.card-list{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+   
+}
+.card{
+    width: 250px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 0 10px black;
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.details h3{
+    color: black;
+}
+.details p{
+    color: red;
+}
+/* --------Deal------ */
+.deal{
+    /* text-align: center; */
+    width: 80%;
+    background-color: white;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+.deal div{
+    display: flex;
+    width:350px;
+}
+.deal div input{
+    width: 70%;
+    padding: 10px;
+    outline: none; 
+    border: 1px solid red;
+    border-radius: 5px 0 0 5px ;
+}
+.deal div button{
+    width: 30%;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+/* ---------foooter-------- */
+.footer{
+    text-align: center;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black
+}
+.footer-left{
+    width: 60%;
+}
+.footer-left p {
+   justify-content: space-evenly;
+   color: black;
+    /* padding: 30px; */
+}
+.footer-right{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+.footer-right h2{
+    color: red;
+    margin-bottom: 20px;
+}
+.footer-right ul li{
+    list-style-type: none;
+    padding: 5px;
+    display: block;
+
+}
